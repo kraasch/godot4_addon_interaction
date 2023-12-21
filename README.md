@@ -4,6 +4,8 @@
 
 ## to-dos
 
+ - [ ] extract addon from InteractionManger (the scenes and scripts in the directory `./interaction_manager/interaction`).
+ - [ ] upload addon to godot addon store.
  - [ ] FIXME: label in autoloaded InteractionManager seems to stay null after ready function is called.
 
 ## reads
