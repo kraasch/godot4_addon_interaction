@@ -53,3 +53,7 @@ one_shot = true
 
 [node name="AppleSpawn" type="Marker2D" parent="."]
 position = Vector2(0, -23)
+
+[connection signal="body_entered" from="AnimatedSprite2D/PickArea" to="." method="_on_pick_area_body_entered"]
+[connection signal="body_exited" from="AnimatedSprite2D/PickArea" to="." method="_on_pick_area_body_exited"]
+[connection signal="timeout" from="GrowTimer" to="." method="_on_grow_timer_timeout"]
