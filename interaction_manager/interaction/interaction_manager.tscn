@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://crcrder80m1jc"]
+
+[ext_resource type="FontFile" uid="uid://rhylq24v2mse" path="res://fonts/superstar_memesbruh03.ttf" id="2_pflfn"]
+
+[node name="InteractionManager" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+z_index = 10
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -62.5
+offset_right = 62.5
+offset_bottom = 26.0
+grow_horizontal = 2
+theme_override_fonts/font = ExtResource("2_pflfn")
+text = "[E] TO INTERACT"
+horizontal_alignment = 1
+vertical_alignment = 1

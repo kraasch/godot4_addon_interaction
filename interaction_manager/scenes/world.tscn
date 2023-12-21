@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://d0rarucw0lpjs"]
+[gd_scene load_steps=15 format=3 uid="uid://d0rarucw0lpjs"]
 
 [ext_resource type="PackedScene" uid="uid://bf2wlw73wfpoi" path="res://scenes/player.tscn" id="1_2bq56"]
 [ext_resource type="Texture2D" uid="uid://c3ref00nheo0r" path="res://art/survivalgame-terrian-defult.png" id="2_xuajp"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://dk6irgm36gej0" path="res://art/survivalgame-trees.png" id="5_gyqi1"]
 [ext_resource type="Texture2D" uid="uid://q3umifkycxn0" path="res://art/survivalgame-randomitems.png" id="6_agoag"]
 [ext_resource type="PackedScene" uid="uid://ci0a07yg5l4p2" path="res://scenes/apple_tree.tscn" id="7_pxgbn"]
+[ext_resource type="PackedScene" uid="uid://df3r2j58qx60q" path="res://scenes/new_apple_tree.tscn" id="8_hdxlx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_04wh8"]
 texture = ExtResource("2_xuajp")
@@ -296,7 +297,10 @@ position = Vector2(304, 156)
 position = Vector2(821, 347)
 
 [node name="AppleTree3" parent="." instance=ExtResource("7_pxgbn")]
-position = Vector2(673, 218)
+position = Vector2(385, 347)
 
 [node name="AppleTree4" parent="." instance=ExtResource("7_pxgbn")]
-position = Vector2(558, 330)
+position = Vector2(680, 124)
+
+[node name="NewAppleTree" parent="." instance=ExtResource("8_hdxlx")]
+position = Vector2(619, 311)
