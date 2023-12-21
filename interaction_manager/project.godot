@@ -38,6 +38,13 @@ down={
 ]
 }
 
+[layer_names]
+
+2d_render/layer_1="ground"
+2d_render/layer_2="player"
+2d_physics/layer_1="ground"
+2d_physics/layer_2="player"
+
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0

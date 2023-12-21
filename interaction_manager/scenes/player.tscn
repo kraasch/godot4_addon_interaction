@@ -177,8 +177,9 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_o5rou"]
-size = Vector2(53.75, 122.5)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_q806p"]
+radius = 4.0
+height = 12.0
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_mg68a")
@@ -188,5 +189,12 @@ sprite_frames = SubResource("SpriteFrames_25tnr")
 animation = &"walk_nw"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -62.25)
-shape = SubResource("RectangleShape2D_o5rou")
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_q806p")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.5, 2.5)
+limit_left = -310
+limit_top = 10
+limit_right = -290
+limit_bottom = 80
